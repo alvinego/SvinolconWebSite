@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svinolcon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+</head>
+<body>
+
+<!-----------------Header------------------------>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/LOGO.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">INSIGHTS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="industries.html">INDUSTRIES</a></li>
+                    <li><a href="carreers.html">CAREER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+<!------------Contact Us-------------------->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.79101947399346!2d3.5120769!3d6.4381669!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf66286514445%3A0xd26ecf8f75431802!2sBPS%20Pharmacy!5e0!3m2!1sen!2sng!4v1631802492235!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>2 Chief Bamidele Eletu Ave, Lekki Penninsula II 101245</h5>
+                    <p>Lagos, Nigeria</p>
+                </span>
+            </div>
+             <div>
+                <i class="fa fa-phone-square"></i>
+                <span>
+                    <h5>08177219696</h5>
+                    <p>Monday to Friday, 8am to 5pm</p>
+                </span>
+            </div>
+             <div>
+                <i class="fa fa-envelope-square"></i>
+                <span>
+                    <h5>info@svinolcon.com</h5>
+                    <p>Email Us</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+<!------- Footer ------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Svinolcon offers a wide range of consulting services to serve a variety of businesses and clients. <br>Whether you’re a small, local business or a multinational corporation, we can help you reach new levels of success. <br>Get in touch with us today to learn more about our services and what our team can do for you.</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook-square"></i>
+        <i class="fa fa-twitter-square"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin-square"></i>
+    </div>
+
+</section>
+
+   <script src="index.js"> 
+    
+    </script> 
+</body>
+</html>
